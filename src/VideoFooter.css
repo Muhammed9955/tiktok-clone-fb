@@ -4,6 +4,7 @@
   bottom: 150px;
   margin-left: 40px;
   display: flex;
+  bottom: 10rem;
 }
 
 .videoFooter__text {
@@ -26,7 +27,6 @@
 .videoFooter__icon {
   position: absolute;
 }
-
 
 .videoFooter__ticker > .ticker {
   height: fit-content;

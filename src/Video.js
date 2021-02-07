@@ -28,8 +28,8 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
         ref={videoRef}
         src={url}
       ></video>
-      <VideoFooter channel={channel} description={description} song={song} />
       <VideoSidebar likes={likes} messages={messages} shares={shares} />
+      <VideoFooter channel={channel} description={description} song={song} />
     </div>
   );
 }
