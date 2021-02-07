@@ -28,10 +28,14 @@
   position: absolute;
 }
 
+.videoFooter__ticker {
+  width: 250%;
+}
 .videoFooter__ticker > .ticker {
   height: fit-content;
-  margin-left: 30px;
-  width: 35%;
+  margin: 0 5rem 0 2rem;
+  /* margin-left: 2rem; */
+  width: 200px;
 }
 
 .videoFooter__text > h3 {
